@@ -14,7 +14,7 @@ actions = {
     curses.KEY_RIGHT: robot.right,
 }
 
-
+# Initialize curses functionality
 screen = curses.initscr()
 curses.noecho()
 curses.halfdelay(1)       
