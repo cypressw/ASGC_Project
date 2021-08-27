@@ -5,7 +5,6 @@ from gpiozero import LED, PhaseEnableRobot
 en_motor1 = LED(22) # Make GPIO mode as output using LED class
 en_motor2 = LED(23) # In case you wan to set GPIO mode as input, go with Button class
 
-# robot = Robot(left=(12, 24, 22), right=(13, 25, 23))
 robot = PhaseEnableRobot(left=(24, 12), right=(25, 13)) # (Motor PWM, Motor DIR)
 
 actions = {
